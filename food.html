@@ -8,12 +8,44 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#img1").click(function(event) {
+          $(".crispy").toggle(5000);
+          event.preventDefault();
+        });
+        $("#img2").click(function(event) {
+          $(".soft").toggle(5000);
+          event.preventDefault();
+        });
+        $("#img3").click(function(event) {
+          $(".mucha").toggle(5000);
+          event.preventDefault();
+        });
+        $("#img4").click(function(event) {
+          $(".big").toggle(5000);
+          event.preventDefault();
+        });
+        $("#img5").click(function(event) {
+          $(".bueno").toggle(5000);
+          event.preventDefault();
+        });
+        $("#img6").click(function(event) {
+          $(".bob").toggle(5000);
+          event.preventDefault();
+        });
+        $("#img7").click(function(event) {
+          $(".bean").toggle(5000);
+          event.preventDefault();
+        })
+      });
 
+    </script>
     <title>Taco Joint</title>
   </head>
 
   <body>
-    <div class="container-fluid" style="height:1000px;">
+    <div class="container-fluid">
       <div id="header">
         <div id="logo">
           <img src="resta2.png" alt="" style="height:80px;">
@@ -26,6 +58,106 @@
           <li id="franch"><a href="franchising.html">Franchising</a></li>
           <li id="resrve"><a href="reserve.html">Reserve</a></li>
         </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="height:1800px;">
+      <p style="text-align:center;margin-top:100px;">Food</p>
+      <h1 style="text-align:center;margin-top:50px;">EVERYTHING YOU’VE BEEN CRAVING</h1>
+      <p style="text-align:center;">Freshly prepared food handcrafted in our kitchens. Real ingredients that will make your mouth water. Food you can<br> customize any way you’d like. That’s how we do Bueno.</p>
+      <div class="row">
+        <div class="well well-sm well-block">
+          <h1 style="text-align:center;">TACOS</h1>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img src="f1.jfif" alt="" id="img1"></a>
+          <h3>The Original Crispy Taco</h3>
+          <h1 class="crispy">The Original Way to Bueno</h1>
+          <p class="crispy">This Bueno classic is how we got our name! A crunchy corn tortilla cradles your choice of lightly seasoned ground beef, all white meat chicken or fajita steak, along with crisp lettuce, juicy tomatoes and freshly grated cheddar cheese for a
+            taste that’s nothing but Bueno.</p>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img src="f3.jfif" alt="" id="img2"></a>
+          <h3 style="margin-left:90px;">Soft Taco</h3>
+          <h1 class="soft">A Flour Tortilla Packed with Flavor</h1>
+          <p class="soft">Taste the softer side of this Bueno classic. Our soft taco comes with all your favorite fillings, including your choice of fresh ground beef, all white meat chicken or fajita steak, along with crisp lettuce, juicy tomatoes and grated cheddar
+            cheese, carefully wrapped in a fresh-made flour tortilla.</p>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img src="f4.jfif" alt="" id="img3"></a>
+          <h3 style="margin-left:70px;">The Muchaco®</h3>
+          <h1 class="mucha">Bueno’s Best Kept Secret</h1>
+          <p class="mucha">This Bueno exclusive takes tacos to a whole new level. We swapped the shell with warm, fluffy pita bread and stuffed it with slow-cooked refried beans, your choice of all white meat chicken, fajita steak or seasoned ground beef, along with shredded
+            cheddar cheese, crisp lettuce and juicy tomatoes.</p>
+        </div>
+        <div class="col-md-3">
+          <a href="#"><img src="f5.jfif" alt="" id="img4"></a>
+          <h3 style="margin-left:80px;">Big Freak’n Taco</h3>
+          <h1 class="big">A Bigger Way to Bueno</h1>
+          <p class="big">One taco is never enough, so we packed double the flavor and freshness into this two-handed crispy corn tortilla. Enjoy two times the fresh, never frozen ground beef, all white meat chicken or fajita steak, plus grated cheddar cheese with crisp
+            lettuce, juicy tomatoes and a dollop of cool sour cream.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="well well-sm well-block">
+          <h1 style="text-align:center;">BURRITOS</h1>
+        </div>
+        <div class="col-md-4">
+          <a href="#"><img src="br1.jfif" alt="" id="img5"></a>
+          <h3 style="margin-left:50px;">Bueno Burrito</h3>
+          <h1 class="bueno">A Burrito the Bueno Way</h1>
+          <p class="bueno">Wrap your taste buds around five layers of everything Bueno. We start with slow-cooked refried beans and layer in flavorful Mexican rice, chili sauce, grated cheddar cheese and your choice of seasoned ground beef, all white meat chicken or juicy
+            fajita steak.</p>
+        </div>
+        <div class="col-md-4">
+          <a href="#"><img src="br2.jfif" alt="" id="img6"></a>
+          <h3 style="margin-left:80px;">The BOB - Big Ol’ Burrito</h3>
+          <h1 class="bob">Meet BOB</h1>
+          <p class="bob">A burrito so big, it needed its own acronym. We upgraded our fresh flour tortilla to a size that can hold extra fillings. Your choice of seasoned ground beef, juicy fajita steak or all white meat chicken is layered with spicy chili sauce, grated
+            cheddar cheese, crisp lettuce, juicy tomatoes and cool sour cream to make this Bueno-famous burrito.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <a href="#"><img src="br3.jfif" alt="" id="img7"></a>
+          <h3 style="margin-left:80px;">Bean Burrito</h3>
+          <h1 class="bean">A Better Way to Burrito</h1>
+          <p class="bean">Everyone should enjoy a little Bueno, so we created this tasty option packed with fat-free, vegetarian black beans, pepper jack cheese, cilantro-lime rice and refreshing sour cream. It’s all wrapped up in a soft flour tortilla that delivers
+            flavor straight to your taste buds.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="br4.jfif" alt="">
+          <h3 style="margin-left:50px;">Combo Burrito</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="br5.jfif" alt="">
+          <h3 style="margin-left:80px;">Potato Burrito</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="br6.jfif" alt="">
+          <h3 style="margin-left:80px;">Beef Burrito</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="well well-sm well-block">
+          <h1 style="text-align:center;">QUESADILLAS</h1>
+        </div>
+        <div class="col-md-4">
+          <img src="dilla1.jpg" alt="">
+          <h3 style="margin-left:50px;">BEEF QUESADILLA</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="dilla2.jpg" alt="">
+          <h3 style="margin-left:80px;">CHICKEN QUESADILLA</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="dilla3.jpg" alt="">
+          <h3 style="margin-left:80px;">CHEESE QUESADILLA</h3>
+        </div>
       </div>
     </div>
 
