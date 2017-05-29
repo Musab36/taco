@@ -131,3 +131,16 @@ h4 {
 .input {
 	color: black;
 }
+.reserve {
+	color: rgba(191, 183, 76, 0.62);
+	margin-top: 100px;
+}
+#select2 {
+	margin-top: 39px;
+}
+#select3 {
+	margin-top: 39px;
+}
+.star {
+	color: red;
+}
