@@ -144,3 +144,32 @@ h4 {
 .star {
 	color: red;
 }
+#con {
+	text-align: center;
+	font-weight: bolder;
+}
+.details {
+	color: red;
+}
+#form2 {
+	margin-left: 300px;
+}
+#selct {
+	width: 700px;
+	height: 40px;
+	border-radius: 3px;
+}
+.inp {
+	height: 40px;
+	border-radius: 2px;
+}
+#rad1 {
+	word-spacing: 20px;
+}
+#rad2 {
+	word-spacing: 20px;
+}
+.btn {
+	background-color: red;
+	color: white;
+}
