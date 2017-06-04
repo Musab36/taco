@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#view").click(function(event) {
+          $("#image1").show();
+          $("#more1").show();
+          $("#image2").hide();
+          $("#image3").hide();
+          $("#image4").hide();
+          $(".well").hide();
+          event.preventDefault();
+        });
+        $(".bot").click(function(event) {
+          $("#image1").show();
+          $("#more1").hide();
+          $("#more2").hide();
+          $("#more3").hide();
+          $("#more4").hide();
+          $("#image2").show();
+          $("#image3").show();
+          $("#image4").show();
+          $(".well").show();
+          event.preventDefault();
+        });
+        $("#view2").click(function(event) {
+          $("#image2").show();
+          $("#more2").show();
+          $("#image1").hide();
+          $("#image3").hide();
+          $("#image4").hide();
+          $(".well").hide();
+          event.preventDefault();
+        });
+        $("#view3").click(function(event) {
+          $("#image3").show();
+          $("#more3").show();
+          $("#image1").hide();
+          $("#image2").hide();
+          $("#image4").hide();
+          $(".well").hide();
+          event.preventDefault();
+        });
+        $("#view4").click(function(event) {
+          $("#image4").show();
+          $("#more4").show();
+          $("#image1").hide();
+          $("#image2").hide();
+          $("#image3").hide();
+          $(".well").hide();
+          event.preventDefault();
+        });
+      });
+
+    </script>
+
+    <title>Taco Joint</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div id="header">
+        <div id="logo">
+          <img src="buenologo.png" alt="" style="height:80px;margin-left:20px;">
+        </div>
+        <ul id="navbar">
+          <li id="home"><a href="index.html">Home</a></li>
+          <li id="food"><a href="food.html">Food</a></li>
+          <li id="careers"><a href="careers.html">Careers</a></li>
+          <li id="resrve"><a href="reserve.html">Reserve</a></li>
+          <li id="resrve"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="height:2200px;">
+      <div class="ourstory">
+        <p class="prg">Our Story</p>
+        <h1 class="comp">50 Years of Fresh</h1>
+        <img src="tcstore.jpeg" alt="" id="tcstore">
+        <img src="guarantee.svg" alt="" id="gurant">
+        <p style="text-align:center;">In 1967, we opened our doors in Abilene, TX to share fresh, authentic Mexican food. Now, almost 50 years<br> later, while the other guys have turned to packaged and processed foods, we’ve stayed true to our roots<br> by crafting authentic Tex-Mex
+          recipes in each of our kitchens. We do things the Bueno way, and you’re<br> sure to taste the difference.
+        </p>
+        <div class="page-header">
+        </div>
+        <h1 class="comp">Our Team</h1>
+        <p style="text-align:center;">Food this good doesn’t happen without a dedicated team of seasoned<br> restaurant veterans.</p>
+      </div>
+      <div class="row" style="padding-left:250px;">
+        <div class="col-md-4">
+          <img src="comp1.jpg" alt="" style="width:350px;" id="image1">
+          <div class="well well-sm" style="width:350px;">
+            <p class="members">President & CEO</p>
+            <h2 class="members">Mike Roper</h2>
+            <h3 id="view"><a href="#">VIEW MORE</a></h3>
+          </div>
+        </div>
+        <div id="more1">
+          <p>President & CEO</p>
+          <h1>MIKE ROPER</h1>
+          <p>Mike has been a part of Bueno since 2013. He’s served as<br> President, Chief Operating Officer and Chief Technology &<br> Development Officer, so he knows his way around our tacos.<br> Before becoming a part of team Bueno, Mike served as President<br>            of IMS Southern Colorado. From 2003 to 2012, Mike was a<br> sandwich man at Quizno’s Subs, serving as Chief Operating<br> Officer, Executive Vice President of Restaurant Operations, Senior<br> Vice President of Restaurant Operations and three
+            other VP<br> positions. From 2000 to 2006, Mike was a Multi-Unit Franchisee of<br> Quizno’s Subs and owned four restaurants in Chicago, IL.</p>
+          <button class="bot btn-info">← Back To Team</button>
+        </div>
+        <div class="col-md-4">
+          <img src="comp2.jpg" alt="" style="width:350px;" id="image2">
+          <div class="well well-sm" style="width:350px;">
+            <p class="members">CFO</p>
+            <h2 class="members">Philip Parsons</h2>
+            <h3 id="view2"><a href="#">VIEW MORE</a></h3>
+          </div>
+        </div>
+        <div id="more2">
+          <p>CFO</p>
+          <h1>PHILIP PARSONS</h1>
+          <p>Philip has been our CFO since 2008. Before joining team Bueno,<br> Philip was a Partner with Tatum LLC, where he provided strategic<br> and turnaround services for brands like Fuddruckers, Steak & Ale<br> and Bennigan’s. From 2003 to 2005, Philip
+            served as the CFO of<br> iDefense, Inc., a provider of global cyber security intelligence. He<br> has also served in both operational and financial planning and<br> analysis roles for KFC International based in Sydney, Australia.</p>
+          <button class="bot btn-info">← Back To Team</button>
+        </div>
+      </div>
+      <div class="row" style="padding-left:250px;">
+        <div class="col-md-4">
+          <img src="comp3.jpg" alt="" style="width:350px;" id="image3">
+          <div class="well well-sm" style="width:350px;">
+            <p class="members">CMO</p>
+            <h2 class="members">Sarah Beddoe</h2>
+            <h3 id="view3"><a href="#">VIEW MORE</a></h3>
+          </div>
+        </div>
+        <div id="more3">
+          <p>CMO</p>
+          <h1>SARAH BEDDOE</h1>
+          <p>Sarah Beddoe joined Taco Bueno in 2017 as Chief Marketing<br> Officer. From 2015—2017, Sarah served as Vice President of<br> National Marketing for SONIC, where she focused on strategic<br> marketing planning, the marketing calendar and an innovative<br>            product pipeline. Prior to SONIC, Beddoe was Director of Digital<br> Experience and Social Engagement for Pizza Hut Corp. Sarah<br> started her career in finance with Neiman Marcus Group in Dallas.</p>
+          <button class="bot btn-info">← Back To Team</button>
+        </div>
+        <div class="col-md-4">
+          <img src="comp4.jpg" alt="" style="width:350px;" id="image4">
+          <div class="well well-sm" style="width:350px">
+            <p class="members">VP Franchise</p>
+            <h2 class="members">Matthew Stanton</h2>
+            <h3 id="view4"><a href="#">VIEW MORE</a></h3>
+          </div>
+        </div>
+        <div id="more4">
+          <p>VP Franchise</p>
+          <h1>MATTHEW STANTON</h1>
+          <p>Matt came on board in 2016 and oversees real estate selection<br> and franchise development. Before joining team Bueno, Matt<br> served as VP of Strategy, Real Estate, and Franchise Development<br> at Smashburger, helping grow the brand from
+            100 to 360 units. His<br> prior experiences include running growth strategy and acquisitions<br> for a division of Celanese, a global technology and specialty<br> materials company, and working as a management consultant with<br> Bain & Company
+            focused on growth strategy for clients in a variety of industries.</p>
+          <button class="bot btn-info">← Back To Team</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="bottomdiv">
+      <div class="row">
+        <div class="col-md-1" style="margin-left:50px;margin-top:100px;color:white;">
+          <p><a href="food.html">FOOD</a></p>
+          <p><a href="nutrition.html">NUTRITION</a></p>
+          <p><a href="company.html">COMPANY</a></p>
+          <p><a href="fundrising.html">FUNDRISING</a></p>
+        </div>
+        <div class="col-md-1" style="margin-left:30px;margin-top:100px;">
+          <p><a href="#">GIFT CARDS</a></P>
+          <p><a href="#">ABOUT US</a></p>
+          <p><a href="#">NEWS</a></p>
+        </div>
+        <div class="col-md-3" style="margin-left:70px;margin-top:80px;">
+          <h1 style="color:white;">FOLLOW US ON</h1>
+          <ul>
+            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"/></a>
+            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"/></a>
+            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"/></a>
+            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus" title="google plus"/></a>
+        </div>
+        <div class="col-md-5" style="margin-left:30px;margin-top:90px;">
+          <h4>MORE BUENO IN YOUR INBOX</h4>
+          <p class="pa">There’s nothing more Bueno than a great deal! Sign up<br> for member-only offers and fresh news.</p>
+          <p class="par"><a href="#">JOIN BUENOHEADS CLUB →</p></a>
+        </div>
+      </div>
+      <p class="paro">©2017 Taco Bueno Restaurants, L.P.</p>
+    </div>
+    </div>
+  </body>
+
+</html>
