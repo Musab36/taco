@@ -38,7 +38,7 @@ li>a {
 }
 li>a:hover,
      focus {
-	background: skyblue;
+	background: red;
 	color: white;
 }
 #bottomdiv {
@@ -183,6 +183,7 @@ h4 {
 }
 #tcstore {
 	padding-left: 50px;
+	padding-top: 20px;
 }
 #gurant {
 	padding-left: 550px;
@@ -210,11 +211,17 @@ h4 {
 	display: none;
 	padding-left: 400px;
 }
-.bot:hover {
+.bot {
 	color: white;
 	width: 150px;
 	height: 50px;
+	border-radius: 5px;
+	border: 2px solid black;
 	background-color: black;
+}
+.bot:hover {
+	background-color: white;
+	color: black;
 
 }
 #more2 {
@@ -228,4 +235,46 @@ h4 {
 #more4 {
 	display: none;
 	padding-left: 400px;
+}
+#fund {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+}
+#rais {
+	padding-left: 160px;
+	padding-top: 160px;
+}
+.col-md-1 {
+	padding-top: 20px;
+}
+.well {
+	background-color: white;
+}
+.phone {
+	font-weight: bold;
+}
+.email {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#subm {
+	color: white;
+	background-color: red;
+	height: 45px;
+	width: 270px;
+	border: 2px red solid;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+#subm:hover {
+	background-color: white;
+	color: black;
+}
+.request {
+	text-align:center;
+	width:350px;
+	margin-left:450px;
+	margin-top:30px;
+	height: 270px;
 }
