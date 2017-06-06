@@ -257,6 +257,10 @@ h4 {
 .email {
 	text-decoration: underline;
 	font-weight: bold;
+	color: black ! important;
+}
+.email:hover {
+	color: red ! important;
 }
 #subm {
 	color: white;
@@ -277,4 +281,11 @@ h4 {
 	margin-left:450px;
 	margin-top:30px;
 	height: 270px;
+}
+.online {
+	text-decoration: underline;
+	color: black ! important;
+}
+.online:hover {
+	color: red ! important;
 }
