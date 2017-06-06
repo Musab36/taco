@@ -218,6 +218,7 @@ h4 {
 	border-radius: 5px;
 	border: 2px solid black;
 	background-color: black;
+	display: none;
 }
 .bot:hover {
 	background-color: white;
