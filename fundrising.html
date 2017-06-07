@@ -9,6 +9,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script>
+      $(document).ready(function() {
+        $(".online").click(function(event) {
+          $("#funds").show();
+          $("#fundcon").hide();
+          event.preventDefault();
+        });
+        $("#subm").click(function(event) {
+          $("#funds").show();
+          $("#fundcon").hide();
+          event.preventDefault();
+        });
+      });
+
+    </script>
+
     <title>Taco Joint</title>
   </head>
 
@@ -28,117 +44,178 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="height:1750px;">
-      <p style="padding-top:150px;text-align:center;">Fundrising</p>
-      <h1 id="fund">Doing Something Bueno for the Community</h1>
-      <div class="row" style="padding-left:50px;">
-        <div class="col-md-6" id="rais">
-          <h2 style="font-weight:bolder;">Eat Tacos. Get Money.</h2>
-          <p>We want to help your organization raise the money it needs to be<br> successful. We know a good cause and great taste are the perfect<br> pair, so we’ve made it easy to host a fundraising night at Taco<br> Bueno, where your group will receive
-            15% of net sales.
-          </p>
+    <div id="fundcon">
+      <div class="container-fluid" style="height:700px;">
+        <p style="padding-top:150px;text-align:center;">Fundrising</p>
+        <h1 id="fund">Doing Something Bueno for the Community</h1>
+        <div class="row" style="padding-left:50px;">
+          <div class="col-md-6" id="rais">
+            <h2 style="font-weight:bolder;">Eat Tacos. Get Money.</h2>
+            <p>We want to help your organization raise the money it needs to be<br> successful. We know a good cause and great taste are the perfect<br> pair, so we’ve made it easy to host a fundraising night at Taco<br> Bueno, where your group will receive
+              15% of net sales.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="fund.jpg" alt="">
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="fund.jpg" alt="">
-        </div>
-      </div>
 
-      <div class="page-header">
-        <h1 style="text-align:center;font-weight:bolder;">It's easy to get started</h1>
-        <h3 style="color:rgba(246, 244, 28, 0.66);text-align:center;">JUST FOLLOW THESE STEPS:</h3>
-      </div>
+        <div class="page-header">
+          <h1 style="text-align:center;font-weight:bolder;">It's easy to get started</h1>
+          <h3 style="color:rgba(246, 244, 28, 0.66);text-align:center;">JUST FOLLOW THESE STEPS:</h3>
+        </div>
 
-      <div class="row" style="padding-left:300px;">
-        <div class="col-md-1">
-          <img src="fund1.svg" alt="">
-        </div>
-        <div class="col-md-11">
-          <h3>GET IN TOUCH</h3>
-          <p><a href="#"><span class="online">Submit your request online</a></span>, and we’ll work with you to create a fundraising night<br> that fits your needs.</p>
-        </div>
-      </div>
-      <div class="row" style="padding-left:300px;">
-        <div class="col-md-1">
-          <img src="fund2.gif" alt="">
-        </div>
-        <div class="col-md-11">
-          <h3>SPREAD THE WORD</h3>
-          <p>Then, we’ll give you a template for posters and invitations. Invite as many people<br> as you can, and dedicate a few members of your group to actively promoting<br> your event.
-          </p>
-        </div>
-      </div>
-      <div class="row" style="padding-left:300px;">
-        <div class="col-md-1">
-          <img src="fund3.svg" alt="">
-        </div>
-        <div class="col-md-11">
-          <h3>EAT SOME TACOS</h3>
-          <p>Head to Taco Bueno for a night of flavor and fundraising! Be sure to let us know<br> the name of your group when you order, and tell all your guests to do the same.
-          </p>
-        </div>
-      </div>
-      <div class="row" style="padding-left:300px;">
-        <div class="col-md-1">
-          <img src="fund4.svg" alt="">
-        </div>
-        <div class="col-md-11">
-          <h3>ADD IT UP</h3>
-          <p>After your event, we’ll count the receipts from people who mentioned your<br> group to calculate your fundraising total.
-          </p>
-        </div>
-        <div class="row">
+        <div class="row" style="padding-left:300px;">
           <div class="col-md-1">
-            <img src="fund5.svg" alt="">
+            <img src="fund1.svg" alt="">
           </div>
           <div class="col-md-11">
-            <h3>GET YOUR CHECK</h3>
-            <p>Finally, we’ll send you a check for 15% of the net sales (excluding tax).</p>
+            <h3>GET IN TOUCH</h3>
+            <p><a href="#"><span class="online">Submit your request online</a></span>, and we’ll work with you to create a fundraising night<br> that fits your needs.</p>
           </div>
         </div>
-      </div>
+        <div class="row" style="padding-left:300px;">
+          <div class="col-md-1">
+            <img src="fund2.gif" alt="">
+          </div>
+          <div class="col-md-11">
+            <h3>SPREAD THE WORD</h3>
+            <p>Then, we’ll give you a template for posters and invitations. Invite as many people<br> as you can, and dedicate a few members of your group to actively promoting<br> your event.
+            </p>
+          </div>
+        </div>
+        <div class="row" style="padding-left:300px;">
+          <div class="col-md-1">
+            <img src="fund3.svg" alt="">
+          </div>
+          <div class="col-md-11">
+            <h3>EAT SOME TACOS</h3>
+            <p>Head to Taco Bueno for a night of flavor and fundraising! Be sure to let us know<br> the name of your group when you order, and tell all your guests to do the same.
+            </p>
+          </div>
+        </div>
+        <div class="row" style="padding-left:300px;">
+          <div class="col-md-1">
+            <img src="fund4.svg" alt="">
+          </div>
+          <div class="col-md-11">
+            <h3>ADD IT UP</h3>
+            <p>After your event, we’ll count the receipts from people who mentioned your<br> group to calculate your fundraising total.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-1">
+              <img src="fund5.svg" alt="">
+            </div>
+            <div class="col-md-11">
+              <h3>GET YOUR CHECK</h3>
+              <p>Finally, we’ll send you a check for 15% of the net sales (excluding tax).</p>
+            </div>
+          </div>
+        </div>
 
-      <div class="page-header">
-      </div>
+        <div class="page-header">
+        </div>
 
-      <p style="text-align:center;">That’s it! Taco Bueno fundraising nights are an easy and delicious way to raise money for your group.<br> We can’t wait to do a little Bueno for your group and community.</p>
-      <div class="well well-sm request">
-        <p style="font-weight:bolder;">Contact us right away to get started!</p>
-        <p style="padding-top:20px;">Phone: <span class="phone">972.919.4875</span></p>
-        <p style="padding-top:20px;">Email: <a href="#"><span class="email">fundraiser@tacobueno.com</a></span>
-        </p>
-        <button type="submit" id="subm">SUBMIT REQUEST ONLINE</button>
+        <p style="text-align:center;">That’s it! Taco Bueno fundraising nights are an easy and delicious way to raise money for your group.<br> We can’t wait to do a little Bueno for your group and community.</p>
+        <div class="well well-sm request">
+          <p style="font-weight:bolder;">Contact us right away to get started!</p>
+          <p style="padding-top:20px;">Phone: <span class="phone">972.919.4875</span></p>
+          <p style="padding-top:20px;">Email: <a href="#"><span class="email">fundraiser@tacobueno.com</a></span>
+          </p>
+          <button type="submit" id="subm">SUBMIT REQUEST ONLINE</button>
+        </div>
       </div>
     </div>
 
-    <div id="bottomdiv">
-      <div class="row">
-        <div class="col-md-1" style="padding-left:50px;padding-top:100px;color:white;">
-          <p><a href="food.html">FOOD</a></p>
-          <p><a href="nutrition.html">NUTRITION</a></p>
-          <p><a href="company.html">COMPANY</a></p>
-          <p><a href="fundrising.html">FUNDRISING</a></p>
+    <div class="container-fluid" style="height:1100px;">
+      <form id="funds">
+        <p style="padding-left:100px;padding-top:100px;">Fundraising Form</p>
+        <h1 style="padding-left:100px;font-weight:bolder;">Eat Tacos. Earn Money.</h1>
+        <p style="padding-left:180px;">Submit your fundraising event to us, and we’ll contact you to finalize all details.</p>
+        <div class="form-group">
+          <label>NAME</label><br>
+          <input type="text" class="form-control" placeholder="Enter your full name" required>
         </div>
-        <div class="col-md-1" style="padding-left:30px;padding-top:100px;">
-          <p><a href="#">GIFT CARDS</a></P>
-          <p><a href="#">ABOUT US</a></p>
-          <p><a href="#">NEWS</a></p>
+        <div class="form-group">
+          <label>BEST CONTACT NUMBER</label><br>
+          <input type="text" class="form-control" placeholder="000-000-0000" required>
         </div>
-        <div class="col-md-3" style="padding-left:70px;padding-top:80px;">
-          <h1 style="color:white;">FOLLOW US ON</h1>
-          <ul>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"/></a>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"/></a>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"/></a>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus" title="google plus"/></a>
+        <div class="form-group">
+          <label>EMAIL ADDRESS</label><br>
+          <input type="text" class="form-control" placeholder="you@mail.com" required>
         </div>
-        <div class="col-md-5" style="padding-left:30px;padding-top:90px;">
-          <h4>MORE BUENO IN YOUR INBOX</h4>
-          <p class="pa">There’s nothing more Bueno than a great deal! Sign up<br> for member-only offers and fresh news.</p>
-          <p class="par"><a href="#">JOIN BUENOHEADS CLUB →</p></a>
+        <div class="form-group">
+          <label>ORGANIZATION'S LEGAL NAME</label><br>
+          <input type="text" class="form-control" required>
         </div>
-      </div>
-      <p class="paro">©2017 Taco Bueno Restaurants, L.P.</p>
+        <div class="form-g">
+          <label>STORE LOCATION SEARCH - CLICK (+) TO ADD</label><br>
+          <input type="text" class="control" placeholder="Search by storeld, Zip, City or Address" required><button type="reset" id="clear">ClEAR</button>
+        </div>
+        <div class="form-g">
+          <label>PROPOSED DATE:</label><br>
+          <input type="text" class="control" placeholder="Search by storeld, Zip, City or Address" required><button type="submit" id="sbtn">SELECT</button>
+        </div><br>
+        <select id="time">
+            <option value="00:00">00:00</option>
+            <option value="01:00">01:00</option>
+            <option value="02:00">02:00</option>
+            <option value="03:00">03:00</option>
+            <option value="04:00">04:00</option>
+            <option value="05:00">05:00</option>
+            <option value="06:00">06:00</option>
+            <option value="07:00">07:00</option>
+            <option value="08:00">08:00</option>
+            <option value="09:00">09:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+          </select>
+        <input type="radio" id="am"> a.m. <input type="radio" id="pm"> p.m.<br>
+        <div class="form-group">
+          <label>PURPOSE OF FUNDRAISER</label><br>
+          <textarea rows="8" cols="50" id="tarea"></textarea>
+        </div>
+        <div class="form-group">
+          <label>WHERE DID YOU HEAR ABOUT TACO BUENO FUNDRAISING?</label><br>
+          <input type="text" class="form-control" placeholder="Optional">
+        </div><br>
+        <button type="submit" id="fsubmit">SUBMIT</button>
+      </form>
+
     </div>
+
+    <div class="container-fluid">
+      <div id="bottomdiv">
+        <div class="row">
+          <div class="col-md-1" style="padding-left:50px;padding-top:100px;color:white;">
+            <p><a href="food.html">FOOD</a></p>
+            <p><a href="nutrition.html">NUTRITION</a></p>
+            <p><a href="company.html">COMPANY</a></p>
+            <p><a href="fundrising.html">FUNDRISING</a></p>
+          </div>
+          <div class="col-md-1" style="padding-left:30px;padding-top:100px;">
+            <p><a href="#">GIFT CARDS</a></P>
+            <p><a href="#">ABOUT US</a></p>
+            <p><a href="#">NEWS</a></p>
+          </div>
+          <div class="col-md-3" style="padding-left:70px;padding-top:80px;">
+            <h1 style="color:white;">FOLLOW US ON</h1>
+            <ul>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"/></a>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"/></a>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"/></a>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus" title="google plus"/></a>
+          </div>
+          <div class="col-md-5" style="padding-left:30px;padding-top:90px;">
+            <h4>MORE BUENO IN YOUR INBOX</h4>
+            <p class="pa">There’s nothing more Bueno than a great deal! Sign up<br> for member-only offers and fresh news.</p>
+            <p class="par"><a href="#">JOIN BUENOHEADS CLUB →</p></a>
+          </div>
+        </div>
+        <p class="paro">©2017 Taco Bueno Restaurants, L.P.</p>
+      </div>
     </div>
   </body>
 

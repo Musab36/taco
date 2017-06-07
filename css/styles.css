@@ -301,3 +301,67 @@ h4 {
 .vmore {
 	color: red;
 }
+#funds {
+	display: none;
+}
+.form-control {
+	width: 500px;
+}
+.form-group {
+	margin-left: 300px;
+}
+.control {
+	width: 410px;
+	height: 40px;
+	border-radius: 3px;
+}
+.form-g {
+	margin-left: 300px;
+}
+#clear {
+	width: 90px;
+	height: 40px;
+	background-color: rgb(235, 219, 19);
+	color: black;
+	border: 2px solid rgb(238, 209, 14);
+	border-radius: 3px;
+}
+#clear:hover {
+	background-color: white;
+
+}
+#sbtn {
+	width: 90px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	border: 2px solid red;
+	border-radius: 3px;
+}
+#sbtn:hover {
+	background-color: white;
+	color: black;
+
+}
+#time {
+	height: 40px;
+	border-radius: 4px;
+	width: 80px;
+	margin-left: 300px;
+}
+#fsubmit {
+	margin-left: 300px;
+	width: 90px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+#fsubmit:hover {
+	background-color: white;
+	color: black;
+}
+#tarea {
+	border-radius: 5px;
+}
