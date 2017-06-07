@@ -189,8 +189,9 @@ h4 {
 	padding-left: 550px;
 }
 #view {
-	color: red ! important;
+
 	text-align: center;
+	font-weight: bolder;
 }
 .members {
 	text-align: center;
@@ -198,14 +199,20 @@ h4 {
 #view2 {
 	color: red;
 	text-align: center;
+	font-weight: bolder;
+
 }
 #view3 {
 	color: red;
 	text-align: center;
+	font-weight: bolder;
+
 }
 #view4 {
 	color: red;
 	text-align: center;
+	font-weight: bolder;
+
 }
 #more1 {
 	display: none;
@@ -289,4 +296,7 @@ h4 {
 }
 .online:hover {
 	color: red ! important;
+}
+.vmore {
+	color: red;
 }
