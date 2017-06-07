@@ -46,7 +46,7 @@ li>a:hover,
 	height: 400px;
 	background: black;
 	padding-left: -30px;
-	box-shadow: 2px 4px 3px 2px;
+	box-shadow: 2px 4px 3px gray;
 }
 .botlinks {
 	color: white;
@@ -100,7 +100,7 @@ h4 {
 }
 .cheese {
 	display: none;
-	box-shadow: 2px 4px 3px 2px;
+	box-shadow: 2px 4px 3px gray;
 }
 .turn {
   font-weight: bolder;
@@ -258,6 +258,7 @@ h4 {
 }
 .well {
 	background-color: white;
+	box-shadow: 0px 3px 6px gray;
 }
 .phone {
 	font-weight: bold;
