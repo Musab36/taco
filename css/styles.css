@@ -386,3 +386,43 @@ h4 {
 .myp {
 	text-align: center;
 }
+#joinus {
+	margin-left: 300px;
+}
+.myinput {
+	width: 700px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(#d7d9d2, 0.14);
+}
+.myselect {
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+}
+.myiput {
+	width: 600px;
+	height: 40px;
+}
+.post {
+	width: 100px;
+	height: 40px;
+	background-color: yellow;
+	border: 2px solid yellow;
+	border-radius: 3px;
+}
+.post:hover {
+	background-color: white;
+}
+.now {
+	color: white;
+	background-color: red;
+	width: 100px;
+	height: 40px;
+	border: 2px solid red;
+	border-radius: 5px;
+}
+.now:hover {
+	background-color: white;
+	color: black;
+}
