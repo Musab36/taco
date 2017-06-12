@@ -556,20 +556,7 @@ h4 {
 	background-color: white;
 	color: black;
 }
-#vall2 {
-	width: 150px;
-	height: 50px;
-	background-color: black;
-	color: white;
-	border: 2px solid black;
-	border-radius: 3px;
-	display: none;
-}
-#vall2:hover,
-      focus{
-	background-color: white;
-	color: black;
-}
+
 #conn1 {
 	display: none;
 	height: 850px;
