@@ -29,16 +29,22 @@
           $("#conall").hide();
         });
         $(".article2").click(function() {
-          $("#vall").show();
+          $("#vall2").show();
           $("#conn2").show();
           $(".divall").hide();
           $("#conall").hide();
           $("#ph1").hide();
           $(".php1").hide();
         });
-        $("#vall").click(function() {
+        $("#vall").click(function(event) {
           $("#vall").hide();
           $(".divall").show();
+          event.preventDefault();
+        });
+        $("#vall2").click(function(event) {
+          $("#vall2").hide();
+          $(".divall").show();
+          event.preventDefault();
         });
       });
 
@@ -62,7 +68,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="height:1400px;" id="conall">
+    <div class="container-fluid" style="height:1330px;" id="conall">
       <div class="divall">
         <p style=";text-align:center;padding-top:150px;">News</p>
         <h1 style="text-align:center;font-weight:bolder;">Making the News More Bueno</h1>
@@ -133,69 +139,70 @@
           <button id="morenews">VIEW MORE</button>
         </div>
       </div>
+    </div>
 
-      <div class="container-fluid" id="morecon">
-        <div class="row" style="padding-left:50px;">
-          <div class="col-md-4">
-            <div class="well well-sm">
-              <h1 class="artn">TACO BUENO<br> RESTAURANTS TO<br> ACCEPT<br> DONATIONS FOR<br> RED CROSS<br> TORNADO RELIEF<br> EFFORTS</h1><br><br>
-              <p style="margin-top:30px;"><a href="#"><span class="article7">READ ARTICLE</a></span>
-              </p>
-            </div>
+    <div class="container-fluid" id="morecon">
+      <div class="row" style="padding-left:50px;">
+        <div class="col-md-4">
+          <div class="well well-sm">
+            <h1 class="artn">TACO BUENO<br> RESTAURANTS TO<br> ACCEPT<br> DONATIONS FOR<br> RED CROSS<br> TORNADO RELIEF<br> EFFORTS</h1><br><br>
+            <p style="margin-top:30px;"><a href="#"><span class="article7">READ ARTICLE</a></span>
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="well well-sm">
-              <p>Partnership between global private equity firm<br> and leading Tex-Mex restaurant chain will<br> accelerate the Company’s growth</p>
-              <h1 class="artn">TPG Growth<br> Acquires Taco<br> Bueno</h1>
-              <p style="margin-top:175px;"><a href="#"><span class="article8">READ ARTICLE</a></span>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="well well-sm">
-              <img src="art2.jpeg" alt="" style="width:380px;">
-              <p style="text-align:center;">New Garden of the Gods location follows<br> record-breaking opening at N. Academy</p>
-              <p class="artn" style="text-align:center">TACO BUENO TO OPEN SECOND<br> RESTAURANT IN COLORADO<br> SPRINGS</p>
-              <p><a href="#"><span class="article9">READ ARTICLE</a></span>
-              </p>
-            </div>
-          </div>
-        </div><br>
-        <div class="mnews2">
-          <p>( Showing 9 of 12 Items )</p>
-          <button id="morenews2">VIEW MORE</button>
         </div>
+        <div class="col-md-4">
+          <div class="well well-sm">
+            <p>Partnership between global private equity firm<br> and leading Tex-Mex restaurant chain will<br> accelerate the Company’s growth</p>
+            <h1 class="artn">TPG Growth<br> Acquires Taco<br> Bueno</h1>
+            <p style="margin-top:175px;"><a href="#"><span class="article8">READ ARTICLE</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well well-sm">
+            <img src="art2.jpeg" alt="" style="width:380px;">
+            <p style="text-align:center;">New Garden of the Gods location follows<br> record-breaking opening at N. Academy</p>
+            <p class="artn" style="text-align:center">TACO BUENO TO OPEN SECOND<br> RESTAURANT IN COLORADO<br> SPRINGS</p>
+            <p><a href="#"><span class="article9">READ ARTICLE</a></span>
+            </p>
+          </div>
+        </div>
+      </div><br>
+      <div class="mnews2">
+        <p>( Showing 9 of 12 Items )</p>
+        <button id="morenews2">VIEW MORE</button>
       </div>
+    </div>
 
-      <div class="container-fluid" id="morecon2">
-        <div class="row" style="padding-left:50px;">
-          <div class="col-md-4">
-            <div class="well well-sm">
-              <img src="art3.jpeg" alt="" style="width:380px;">
-              <p style="text-align:center;">Taco Bueno opens new market in Colorado<br> Springs while expanding in Texas and<br> Oklahoma</p>
-              <h1 class="artn">Taco Bueno Ramps Up Expansion</h1>
-              <p><a href="#"><span class="article10">READ ARTICLE</a></span>
-              </p>
-            </div>
+    <div class="container-fluid" id="morecon2">
+      <div class="row" style="padding-left:50px;">
+        <div class="col-md-4">
+          <div class="well well-sm">
+            <img src="art3.jpeg" alt="" style="width:380px;">
+            <p style="text-align:center;">Taco Bueno opens new market in Colorado<br> Springs while expanding in Texas and<br> Oklahoma</p>
+            <h1 class="artn">Taco Bueno Ramps Up Expansion</h1>
+            <p><a href="#"><span class="article10">READ ARTICLE</a></span>
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="well well-sm">
-              <p>TACO BUENO OPENS FIRST IN-LINE<br> LOCATION IN BROKEN ARROW, OK</p>
-              <h1 class="artn">New Location -<br> Broken Arrow, OK</h1>
-              <p style="margin-top:280px;"><a href="#"><span class="article11">READ ARTICLE</a></span>
-              </p>
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well well-sm">
+            <p>TACO BUENO OPENS FIRST IN-LINE<br> LOCATION IN BROKEN ARROW, OK</p>
+            <h1 class="artn">New Location -<br> Broken Arrow, OK</h1>
+            <p style="margin-top:280px;"><a href="#"><span class="article11">READ ARTICLE</a></span>
+            </p>
           </div>
-          <div class="col-md-4">
-            <div class="well well-sm">
-              <h1 class="artn">Taco Bueno<br> Launches BIG<br> Things for Taco<br> Lovers</h1>
-              <p style="margin-top:240px;"><a href="#"><span class="article12">READ ARTICLE</a></span>
-              </p>
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well well-sm">
+            <h1 class="artn">Taco Bueno<br> Launches BIG<br> Things for Taco<br> Lovers</h1>
+            <p style="margin-top:240px;"><a href="#"><span class="article12">READ ARTICLE</a></span>
+            </p>
           </div>
         </div>
       </div>
     </div>
+
 
     <div class="container-fluid" id="conn1">
       <button id="vall">← VIEW ALL NEWS</button>
@@ -225,6 +232,7 @@
     <p class="php1"><a href="#"><span class="nxt">NEXT</a></span> <span class="arrow">→</span></p>
 
     <div class="container-fluid" id="conn2">
+      <button id="vall2">← VIEW ALL NEWS</button>
       <p style="text-align:center;">Breaking Ground in Colorado</p>
       <h1 class="artn" style="text-align:center;">GRAND OPENING IN COLORADO SPRINGS</h1>
     </div>
