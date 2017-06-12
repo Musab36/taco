@@ -444,7 +444,95 @@ h4 {
 	font-weight: bold;
 	margin-left: 135px;
 }
+.article4 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+
+.article5 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article6 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article7 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article8 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article9 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article10 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article11 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
+.article12 {
+	color: red;
+	font-weight: bold;
+	margin-left: 135px;
+}
 
 .artn {
 	font-weight: bolder;
+}
+.mnews {
+	text-align: center;
+}
+.mnews2 {
+	text-align: center;
+}
+
+#morenews {
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	border: 2px solid red;
+	border-radius: 3px;
+}
+#morenews:hover,
+          focus {
+	background-color: white;
+	color: black;
+}
+#morenews2 {
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	border: 2px solid red;
+	border-radius: 3px;
+}
+#morenews2:hover,
+          focus {
+	background-color: white;
+	color: black;
+}
+
+#morecon {
+	display: none;
+	height: 550px;
+}
+#morecon2 {
+	display: none;
+	height: 550px;
 }
