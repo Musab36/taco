@@ -434,6 +434,12 @@ h4 {
 	font-weight: bold;
 	margin-left: 135px;
 }
+.article1:hover,
+          focus{
+	border: 4px solid yellow;
+	background-color: white;
+}
+
 .article2 {
 	color: red;
 	font-weight: bold;
@@ -535,4 +541,58 @@ h4 {
 #morecon2 {
 	display: none;
 	height: 550px;
+}
+#vall {
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	border-radius: 3px;
+	display: none;
+}
+#vall:hover,
+      focus{
+	background-color: white;
+	color: black;
+}
+#conn1 {
+	display: none;
+	height: 850px;
+	padding-top: 150px;
+}
+#conn2 {
+	display: none;
+	height: 850px;
+	padding-top: 150px;
+}
+
+.bbtn {
+	padding-top: 200px;
+}
+.mydate {
+	margin-left: 600px;
+	background-color: rgb(232, 236, 19);
+	width: 130px;
+	border-radius: 4px;
+	text-align: center;
+}
+.myart {
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.tex {
+	font-weight: bolder;
+	font-size: 30px;
+}
+.arrow {
+	color: red;
+	font-weight: bolder;
+}
+.nxt {
+	color: gray;
+  margin-left: 1250px;
+}
+.php1 {
+	display: none;
 }

@@ -21,6 +21,25 @@
           $("#morecon2").show();
           event.preventDefault();
         });
+        $(".article1").click(function() {
+          $("#vall").show();
+          $("#conn1").show();
+          $(".php1").show();
+          $(".divall").hide();
+          $("#conall").hide();
+        });
+        $(".article2").click(function() {
+          $("#vall").show();
+          $("#conn2").show();
+          $(".divall").hide();
+          $("#conall").hide();
+          $("#ph1").hide();
+          $(".php1").hide();
+        });
+        $("#vall").click(function() {
+          $("#vall").hide();
+          $(".divall").show();
+        });
       });
 
     </script>
@@ -43,175 +62,204 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="height:1350px;">
-      <p style="padding-top:150px;text-align:center;">News</p>
-      <h1 style="text-align:center;font-weight:bolder;">Making the News More Bueno</h1>
-      <div class="row" style="padding-top:50px;padding-left:50px;">
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <p>Regional Tex-Mex Chain Bests National<br> Competitors</p>
-            <h1 class="artn">Taco Bueno Voted<br> America’s Favorite<br> Mexican Quick<br> Service Restaurant<br> in National Survey</h1>
-            <br><br>
-            <p><span class="farm">Farmers Branch, TX</span><br> (March 24, 2016) – Taco Bueno, the<br> regional fresh Tex-Mex restaurant chain</p><br>
-            <p><a href="#"><span class="article1">READ ARTICLE</a></span>
-            </p>
+    <div class="container-fluid" style="height:1400px;" id="conall">
+      <div class="divall">
+        <p style=";text-align:center;padding-top:150px;">News</p>
+        <h1 style="text-align:center;font-weight:bolder;">Making the News More Bueno</h1>
+        <div class="row" style="padding-top:50px;padding-left:50px;">
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <p>Regional Tex-Mex Chain Bests National<br> Competitors</p>
+              <h1 class="artn">Taco Bueno Voted<br> America’s Favorite<br> Mexican Quick<br> Service Restaurant<br> in National Survey</h1>
+              <br><br>
+              <p><span class="farm">Farmers Branch, TX</span><br> (March 24, 2016) – Taco Bueno, the<br> regional fresh Tex-Mex restaurant chain</p><br>
+              <p><a href="#"><span class="article1">READ ARTICLE</a></span>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <p>Breaking Ground in Colorado</p>
-            <h1 class="artn">Grand Opening in<br> Colorado Springs</h1>
-            <h1 class="artn">Farmers Branch, TX and Colorado<br> Springs, CO</h1>
-            <p>January 15, 2016) – Today, Taco<br> Bueno®, the iconic Mexican quick<br> service restaurant chain, opened its<br> third location in Colorado Springs, CO...</p>
-            <br><br>
-            <p><a href="#" title="Grand Opening in Colorado Springs"><span class="article2">READ ARTICLE</a></span>
-            </p>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <p>Breaking Ground in Colorado</p>
+              <h1 class="artn">Grand Opening in<br> Colorado Springs</h1>
+              <h1 class="artn">Farmers Branch, TX and Colorado<br> Springs, CO</h1>
+              <p>January 15, 2016) – Today, Taco<br> Bueno®, the iconic Mexican quick<br> service restaurant chain, opened its<br> third location in Colorado Springs, CO...</p>
+              <br><br>
+              <p><a href="#" title="Grand Opening in Colorado Springs"><span class="article2">READ ARTICLE</a></span>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <p>Donate to the Red Cross</p>
-            <h1 class="artn">TACO BUENO<br> RESTAURANTS TO<br> ACCEPT DONATIONS FOR<br> RED CROSS<br> TORNADO RELIEF<br> EFFORTS</h1>
-            <br><br><br>
-            <p><a href="#"><span class="article3">READ ARTICLE</a></span>
-            </p>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <p>Donate to the Red Cross</p>
+              <h1 class="artn">TACO BUENO<br> RESTAURANTS TO<br> ACCEPT DONATIONS FOR<br> RED CROSS<br> TORNADO RELIEF<br> EFFORTS</h1>
+              <br><br><br>
+              <p><a href="#"><span class="article3">READ ARTICLE</a></span>
+              </p>
+            </div>
           </div>
-        </div>
-      </div><br><br>
+        </div><br><br>
 
-      <div class="row" style="padding-left:50px;">
-        <div class="col-md-4">
-          <div class="well well-sm" style="height:400px;">
-            <p>A Portion of Sales across 155 Stores to Be<br> Donated</p>
-            <h1 class="artn">Taco Bueno to Support the<br> Wounded Warrior<br> Project in Honor of<br> Veterans’ Day</h1>
-            <br><br><br><br>
-            <p><a href="#"><span class="article4">READ ARTICLE</a></span>
-            </p>
+        <div class="row" style="padding-left:50px;">
+          <div class="col-md-4">
+            <div class="well well-sm" style="height:400px;">
+              <p>A Portion of Sales across 155 Stores to Be<br> Donated</p>
+              <h1 class="artn">Taco Bueno to Support the<br> Wounded Warrior<br> Project in Honor of<br> Veterans’ Day</h1>
+              <br><br><br><br>
+              <p><a href="#"><span class="article4">READ ARTICLE</a></span>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <img src="art.png" alt="" style="width:130px;margin-left:110px;">
-            <p style="text-align:center;">Celebrate Cheesecake Day with our Award-<br>Winning Cheesecake Chimi for Free!</p>
-            <h1 class="artn">Taco Bueno to Give Away Free<br> Cheesecake Chimis for National<br> Cheesecake Day</h1>
-            <p><a href="#"><span class="article5">READ ARTICLE</a></span>
-            </p>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <img src="art.png" alt="" style="width:130px;margin-left:110px;">
+              <p style="text-align:center;">Celebrate Cheesecake Day with our Award-<br>Winning Cheesecake Chimi for Free!</p>
+              <h1 class="artn">Taco Bueno to Give Away Free<br> Cheesecake Chimis for National<br> Cheesecake Day</h1>
+              <p><a href="#"><span class="article5">READ ARTICLE</a></span>
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <p>Taco Bueno Breaks Ground in Colorado<br> Springs, CO</p>
-            <h1 class="artn">Taco Bueno Breaks<br> Ground in Colorado<br> Springs, CO</h1>
-            <p style="margin-top:170px;"><a href="#"><span class="article6">READ ARTICLE</a></span>
-            </p>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <p>Taco Bueno Breaks Ground in Colorado<br> Springs, CO</p>
+              <h1 class="artn">Taco Bueno Breaks<br> Ground in Colorado<br> Springs, CO</h1>
+              <p style="margin-top:170px;"><a href="#"><span class="article6">READ ARTICLE</a></span>
+              </p>
+            </div>
           </div>
-        </div>
-      </div><br><br>
+        </div><br><br>
 
-      <div class="mnews">
-        <p>( Showing 6 of 12 Items )</p>
-        <button id="morenews">VIEW MORE</button>
+        <div class="mnews">
+          <p>( Showing 6 of 12 Items )</p>
+          <button id="morenews">VIEW MORE</button>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="morecon">
+        <div class="row" style="padding-left:50px;">
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <h1 class="artn">TACO BUENO<br> RESTAURANTS TO<br> ACCEPT<br> DONATIONS FOR<br> RED CROSS<br> TORNADO RELIEF<br> EFFORTS</h1><br><br>
+              <p style="margin-top:30px;"><a href="#"><span class="article7">READ ARTICLE</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <p>Partnership between global private equity firm<br> and leading Tex-Mex restaurant chain will<br> accelerate the Company’s growth</p>
+              <h1 class="artn">TPG Growth<br> Acquires Taco<br> Bueno</h1>
+              <p style="margin-top:175px;"><a href="#"><span class="article8">READ ARTICLE</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <img src="art2.jpeg" alt="" style="width:380px;">
+              <p style="text-align:center;">New Garden of the Gods location follows<br> record-breaking opening at N. Academy</p>
+              <p class="artn" style="text-align:center">TACO BUENO TO OPEN SECOND<br> RESTAURANT IN COLORADO<br> SPRINGS</p>
+              <p><a href="#"><span class="article9">READ ARTICLE</a></span>
+              </p>
+            </div>
+          </div>
+        </div><br>
+        <div class="mnews2">
+          <p>( Showing 9 of 12 Items )</p>
+          <button id="morenews2">VIEW MORE</button>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="morecon2">
+        <div class="row" style="padding-left:50px;">
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <img src="art3.jpeg" alt="" style="width:380px;">
+              <p style="text-align:center;">Taco Bueno opens new market in Colorado<br> Springs while expanding in Texas and<br> Oklahoma</p>
+              <h1 class="artn">Taco Bueno Ramps Up Expansion</h1>
+              <p><a href="#"><span class="article10">READ ARTICLE</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <p>TACO BUENO OPENS FIRST IN-LINE<br> LOCATION IN BROKEN ARROW, OK</p>
+              <h1 class="artn">New Location -<br> Broken Arrow, OK</h1>
+              <p style="margin-top:280px;"><a href="#"><span class="article11">READ ARTICLE</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="well well-sm">
+              <h1 class="artn">Taco Bueno<br> Launches BIG<br> Things for Taco<br> Lovers</h1>
+              <p style="margin-top:240px;"><a href="#"><span class="article12">READ ARTICLE</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container-fluid" id="morecon">
-      <div class="row" style="padding-left:50px;">
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <h1 class="artn">TACO BUENO<br> RESTAURANTS TO<br> ACCEPT<br> DONATIONS FOR<br> RED CROSS<br> TORNADO RELIEF<br> EFFORTS</h1><br><br>
-            <p style="margin-top:30px;"><a href="#"><span class="article7">READ ARTICLE</a></span>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <p>Partnership between global private equity firm<br> and leading Tex-Mex restaurant chain will<br> accelerate the Company’s growth</p>
-            <h1 class="artn">TPG Growth<br> Acquires Taco<br> Bueno</h1>
-            <p style="margin-top:175px;"><a href="#"><span class="article8">READ ARTICLE</a></span>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <img src="art2.jpeg" alt="" style="width:380px;">
-            <p style="text-align:center;">New Garden of the Gods location follows<br> record-breaking opening at N. Academy</p>
-            <p class="artn" style="text-align:center">TACO BUENO TO OPEN SECOND<br> RESTAURANT IN COLORADO<br> SPRINGS</p>
-            <p><a href="#"><span class="article9">READ ARTICLE</a></span>
-            </p>
-          </div>
-        </div>
-      </div><br>
-      <div class="mnews2">
-        <p>( Showing 9 of 12 Items )</p>
-        <button id="morenews2">VIEW MORE</button>
+    <div class="container-fluid" id="conn1">
+      <button id="vall">← VIEW ALL NEWS</button>
+      <p style="text-align:center;">Regional Tex-Mex Chain Bests National Competitors</p>
+      <h1 style="text-align:center;font-weight:bolder;">TACO BUENO VOTED AMERICA’S FAVORITE<br> MEXICAN QUICK SERVICE RESTAURANT IN<br> NATIONAL SURVEY</h1>
+      <p class="mydate">December 2, 2016</p>
+      <div class="myart">
+        <p>Regional Tex-Mex Chain Bests National Competitors</p>
+        <p><span class="tex">Farmers Branch, TX</span> (March 24, 2016) – Taco Bueno, the regional fresh Tex-Mex restaurant chain, has been voted America’s<br> favorite Mexican quick service restaurant (QSR) in a national survey by global market research
+          firm, Market Force Information. The
+          <br> annual survey canvassed 10,000 people across the country, who collectively ranked Taco Bueno as their favorite in the Mexican food<br> category, ahead of Chipotle, Qdoba, Taco Bell and another seven chains.</p>
+        <p>“We are thrilled that Taco Bueno is receiving national recognition for our fresh-made Tex-Mex,” said Taco Bueno CEO & President<br> Mike Roper. “Of course this won’t come as much of a surprise to our many loyal fans. We believe our commitment
+          to preparing food<br> fresh in house will continue to drive our growth as we look to expand through franchising over the next several years.”
+        </p>
+        <p>Taco Bueno has served “Tex-Mex Made Fresh” since 1967, when its first restaurant opened in Abilene, Texas. The chain now has<br> restaurants in 178 locations across Texas, Oklahoma, Missouri, Kansas, Arkansas, Louisiana, and Colorado. The brand
+          has developed a<br> broad following for its freshly prepared Tex-Mex food with loyal customers referring to themselves as “Buenoheads.”
+        </p>
+        <p>Taco Bueno will open its first campus location at the University of North Texas later this month. The company will open two additional<br> locations in Colorado Springs in April and May and is planning to open seven more locations in Texas and
+          Oklahoma later this year.<br> Learn more about Taco Bueno by visiting</p>
+        <p>
+          <a href="http://www.tacobueno.com/"> Click here <a href="http://www.facebook.com/buenoheadquarters."></p>
+        </a></a>
       </div>
+    </div>
+    <div class="page-header" id="ph1">
+    </div>
+    <p class="php1"><a href="#"><span class="nxt">NEXT</a></span> <span class="arrow">→</span></p>
+
+    <div class="container-fluid" id="conn2">
+      <p style="text-align:center;">Breaking Ground in Colorado</p>
+      <h1 class="artn" style="text-align:center;">GRAND OPENING IN COLORADO SPRINGS</h1>
     </div>
 
-    <div class="container-fluid" id="morecon2">
-      <div class="row" style="padding-left:50px;">
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <img src="art3.jpeg" alt="" style="width:380px;">
-            <p style="text-align:center;">Taco Bueno opens new market in Colorado<br> Springs while expanding in Texas and<br> Oklahoma</p>
-            <h1 class="artn">Taco Bueno Ramps Up Expansion</h1>
-            <p><a href="#"><span class="article10">READ ARTICLE</a></span>
-            </p>
+    <div class="container-fluid">
+      <div id="bottomdiv">
+        <div class="row">
+          <div class="col-md-1" style="padding-left:50px;padding-top:100px;color:white;">
+            <p><a href="food.html">FOOD</a></p>
+            <p><a href="nutrition.html">NUTRITION</a></p>
+            <p><a href="company.html">COMPANY</a></p>
+            <p><a href="fundrising.html">FUNDRISING</a></p>
+          </div>
+          <div class="col-md-1" style="padding-left:30px;padding-top:100px;">
+            <p><a href="gift.html">GIFT CARDS</a></P>
+            <p><a href="#">ABOUT US</a></p>
+            <p><a href="news.html">NEWS</a></p>
+          </div>
+          <div class="col-md-3" style="padding-left:70px;padding-top:80px;">
+            <h1 style="color:white;">FOLLOW US ON</h1>
+            <ul>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"/></a>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"/></a>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"/></a>
+              <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus" title="google plus"/></a>
+          </div>
+          <div class="col-md-5" style="padding-left:30px;padding-top:90px;">
+            <h4>MORE BUENO IN YOUR INBOX</h4>
+            <p class="pa">There’s nothing more Bueno than a great deal! Sign up<br> for member-only offers and fresh news.</p>
+            <p class="par"><a href="join.html">JOIN BUENOHEADS CLUB →</p></a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <p>TACO BUENO OPENS FIRST IN-LINE<br> LOCATION IN BROKEN ARROW, OK</p>
-            <h1 class="artn">New Location -<br> Broken Arrow, OK</h1>
-            <p style="margin-top:280px;"><a href="#"><span class="article11">READ ARTICLE</a></span>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well well-sm">
-            <h1 class="artn">Taco Bueno<br> Launches BIG<br> Things for Taco<br> Lovers</h1>
-            <p style="margin-top:240px;"><a href="#"><span class="article12">READ ARTICLE</a></span>
-            </p>
-          </div>
-        </div>
+        <p class="paro">©2017 Taco Bueno Restaurants, L.P.</p>
       </div>
-    </div>
-
-    <div id="bottomdiv">
-      <div class="row">
-        <div class="col-md-1" style="padding-left:50px;padding-top:100px;color:white;">
-          <p><a href="food.html">FOOD</a></p>
-          <p><a href="nutrition.html">NUTRITION</a></p>
-          <p><a href="company.html">COMPANY</a></p>
-          <p><a href="fundrising.html">FUNDRISING</a></p>
-        </div>
-        <div class="col-md-1" style="padding-left:30px;padding-top:100px;">
-          <p><a href="gift.html">GIFT CARDS</a></P>
-          <p><a href="#">ABOUT US</a></p>
-          <p><a href="news.html">NEWS</a></p>
-        </div>
-        <div class="col-md-3" style="padding-left:70px;padding-top:80px;">
-          <h1 style="color:white;">FOLLOW US ON</h1>
-          <ul>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"/></a>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"/></a>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"/></a>
-            <a href="#" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google plus" title="google plus"/></a>
-        </div>
-        <div class="col-md-5" style="padding-left:30px;padding-top:90px;">
-          <h4>MORE BUENO IN YOUR INBOX</h4>
-          <p class="pa">There’s nothing more Bueno than a great deal! Sign up<br> for member-only offers and fresh news.</p>
-          <p class="par"><a href="join.html">JOIN BUENOHEADS CLUB →</p></a>
-        </div>
-      </div>
-      <p class="paro">©2017 Taco Bueno Restaurants, L.P.</p>
-    </div>
     </div>
   </body>
-
-</html>
-</p>
-</div>
-</div>
-</body>
 
 </html>
