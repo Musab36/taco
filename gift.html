@@ -9,6 +9,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script>
+      $(document).ready(function() {
+        $("#mbtn1").click(function() {
+          $("#cards").fadeOut();
+          $("#balance").fadeIn()
+        });
+      });
+
+    </script>
     <title>Taco Joint</title>
   </head>
 
@@ -30,7 +39,7 @@
       </div>
     </nav>
 
-    <div class="container-fluid" style="height:600px;">
+    <div class="container-fluid" style="height:600px;" id="cards">
       <p style="padding-top:150px;text-align:center;">Gift Cards</p>
       <h1 style="text-align:center;font-weight:bolder;">Check Your Bueno Balance</h1>
       <p style="text-align:center;">Everyone loves having a little Bueno in their pocket. But since tacos don’t exactly fit in your wallet, we created Bueno gift cards that work like<br> cash. You can register it, check your balance and reload it any time you’d like!
@@ -43,7 +52,7 @@
           <div class="well well-sm" style="width:350px;height:200px;">
             <h3 class="myp">Check Your Balance</h3>
             <p class="myp">See how many tacos you can buy with<br> the money left on your card.</p>
-            <button class="mybtn" style="margin-top:20px;">CHECK YOUR BALANCE</button>
+            <button class="mybtn" style="margin-top:20px;" id="mbtn1">CHECK YOUR BALANCE</button>
           </div>
         </div>
         <div class="col-md-4">
@@ -63,6 +72,19 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container" id="balance">
+      <form>
+        <p>Check Balance</p>
+        <h1 style="font-weight:bolder;">Got Bueno Bucks?</h1>
+        <BR>
+        <label>CARD NUMBER:</label><br>
+        <input type="number" class="number" required><br>
+        <label>REGISTRATION CODE:</label><br>
+        <input type="number" class="number" required><br><br>
+        <button type="submit" id="button">CHECK BALANCE</button>
+      </form>
     </div>
 
     <div id="bottomdiv">
